@@ -1,0 +1,25 @@
+<div class="page-wrap">
+  <mat-toolbar>
+    <span>
+      Flower Identification App
+    </span>
+    <span class="dividerSpan"></span>
+    <button mat-fab [matMenuTriggerFor]="menu">Actions</button>
+    <mat-menu #menu="matMenu">
+      <div class="menuItem">
+          <a routerLink="predict-flower" routerLinkActive="active" class="menuLink">Predict flower</a>
+      </div>
+      <div class="menuItem">
+          <a routerLink="upload-model" routerLinkActive="active" class="menuLink">Upload model</a>
+      </div>
+    </mat-menu>
+  </mat-toolbar>
+  <div class="card">
+  </div>
+  <div class="image-card-container">
+    <router-outlet></router-outlet>
+  </div>
+  <footer class="stickyFooter">
+      Build in love by Udacity Students ♥ . You can find this project on <a href="https://github.com/kedevked/flowers-classifier">Github</a>
+  </footer>
+</div>
