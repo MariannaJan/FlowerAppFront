@@ -4,7 +4,7 @@ Front-end for an app allowing for classification of flowers on the basis of a ph
 
 The app was created as a side project for the [Udacity and Facebook PyTorch Scholarship Challenge](https://www.udacity.com/facebook-pytorch-scholarship).
 
-Due to some technical problems the original repository was changed and there is no sign of my work on the frontend of the application. The repository for the whole application can be fouund [here](https://github.com/kedevked/flowers-classifier).
+Due to some technical problems the original repository was changed and there is no sign of my work on the frontend of the application. The repository for the whole application can be found [here](https://github.com/kedevked/flowers-classifier).
 
 Working version of the app can be found [here](http://kedevked.github.io/flowers-classifier).
 
